@@ -1,0 +1,14 @@
+interface:
+  display_name: 小红书一键生成图文并发布
+  short_description: 从主题生成四图小红书笔记，检查确认后再发布或交付
+  default_prompt: Use $xiaohongshu-content-publish to turn my topic into a four-image
+    Xiaohongshu post for review before publishing.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
